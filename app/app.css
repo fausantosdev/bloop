@@ -3,13 +3,53 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-bloop-primary: #60c2f0;     /* Azul bolha */
+  --color-bloop-primary-light: #c5c9fe;
+  --color-bloop-primary-dark: #2E4A63;
+  --color-bloop-secondary: #a88dff;   /* Roxo suave */
+  --color-bloop-background: #f4f8fb;  /* Fundo claro */
+  --color-bloop-text: #2c3e50;        /* Texto escuro */
+  --color-bloop-action: #ff6b81;      /* Rosa vibrante */
+  --color-bloop-success: #7fe0b3;     /* Verde menta */
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+  background: #f4f8fb;
 }
+
+/*
+
+Paleta de Cores para o App Bloop
+1. Cor Primária – Azul Bolha
+#60C2F0 – Azul claro, inspirado no mascote.
+
+Uso: botões principais, destaque, ícones ativos.
+
+2. Cor Secundária – Roxo Suave
+#A88DFF – Um roxo pastel moderno que contrasta bem com o azul.
+
+Uso: elementos secundários, interações, cliques.
+
+3. Cor de Fundo – Cinza Azulado Claro
+#F4F8FB – Fundo leve e limpo para o app.
+
+Uso: background geral.
+
+4. Texto Escuro – Azul Grafite
+#2C3E50 – Um azul bem escuro, quase grafite.
+
+Uso: texto principal.
+
+5. Ação/Like/Comentário – Rosa Vibrante
+#FF6B81 – Rosa para botões de curtida ou ações positivas.
+
+Uso: ícones de ação, alertas, coração.
+
+6. Feedback/Sucesso – Verde Menta
+#7FE0B3 – Suave, transmite positividade.
+
+Uso: alertas positivos, confirmações.
+
+*/
