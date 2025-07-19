@@ -5,8 +5,8 @@ import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Bloop - Compartilhe momentos, conecte emoções" },
+    { name: "description", content: "Bloop é uma rede social minimalista feita para você compartilhar pensamentos, fotos e interações de forma leve, rápida e divertida. Conecte-se com o que importa!" },
   ];
 }
 
@@ -24,7 +24,7 @@ export default function Home() {
           Curta, comente, interaja.
         </p>
         <div className="w-[100%] flex flex-col md:flex-row gap-5">
-          <Link to="/" className="flex-1 text-center bg-bloop-primary p-3 rounded-md text-white">
+          <Link to="/sign-in" className="flex-1 text-center bg-bloop-primary p-3 rounded-md text-white">
             Entrar
           </Link>
           <Link to="/" className="flex-1 text-center bg-bloop-primary-light p-3 rounded-md text-gray-800">
