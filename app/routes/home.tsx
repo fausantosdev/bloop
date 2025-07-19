@@ -27,7 +27,7 @@ export default function Home() {
           <Link to="/sign-in" className="flex-1 text-center bg-bloop-primary p-3 rounded-md text-white">
             Entrar
           </Link>
-          <Link to="/" className="flex-1 text-center bg-bloop-primary-light p-3 rounded-md text-gray-800">
+          <Link to="/sign-up" className="flex-1 text-center bg-bloop-primary-light p-3 rounded-md text-gray-800">
             Criar conta
           </Link>
           <Link to="/" className="flex-1 text-center bg-gray-100 p-3 rounded-md text-bloop-primary-dark border border-bloop-primary-dark">

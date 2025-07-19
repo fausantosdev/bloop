@@ -33,7 +33,7 @@ export default function SignIn() {
           <button type="submit" className="flex-1 text-center bg-bloop-primary p-3 rounded-md text-white cursor-pointer">
             Entrar
           </button>
-          <Link to="#" className="text-center underline text-bloop-primary-dark">
+          <Link to="/sign-up" className="text-center underline text-bloop-primary-dark">
             Criar uma conta
           </Link>
         </form>
