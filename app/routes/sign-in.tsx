@@ -17,11 +17,11 @@ export default function SignIn() {
         <img 
           src={bloop} alt="Bloop, mascote da aplicação"
           className="w-24"/>
-        <h1 className="text-3xl text-bloop-primary-dark mt-0">Bloop</h1>
         <p className="text-gray-600 text-center">
-          Entre na conversa, compartilhe seus momentos.
+          Que bom te ver por aqui de novo! Entre e continue compartilhando com o mundo.
         </p>
         <form className="w-[100%] flex flex-col gap-5">
+          <h1 className="text-3xl text-bloop-primary-dark mt-0 text-center font-semibold">Entrar no Bloop</h1>
           <input 
             type="email" 
             placeholder="johndoe@mail.com"
