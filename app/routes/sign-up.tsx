@@ -26,6 +26,11 @@ export default function SignUp() {
 
   return (
     <main className="flex justify-center pt-16 pb-4 px-5">
+      <span className="absolute top-0 left-0 p-5">
+        <Link to="/" className="text-center underline text-bloop-primary-dark text-2xl">
+          ← Voltar
+        </Link>
+      </span>
       <div className="flex-1 flex flex-col items-center gap-5 max-w-[400px]">
         <img 
           src={bloop} alt="Bloop, mascote da aplicação"
